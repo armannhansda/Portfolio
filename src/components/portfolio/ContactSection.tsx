@@ -92,7 +92,7 @@ export function ContactSection() {
                   <div className="w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center bg-[#4A7C3F]/15 border border-[#1A1A1A] flex-shrink-0">
                     <MapPin size={11} className="text-[#4A7C3F]" />
                   </div>
-                  <span className="text-[8px] sm:text-[9px]">BIT Mesra, India</span>
+                  <span className="text-[8px] sm:text-[9px]">Ranchi, India</span>
                 </motion.div>
                 <motion.a
                   href="tel:+919798595716"
