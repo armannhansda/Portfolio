@@ -47,7 +47,7 @@ export async function POST(req: NextRequest) {
     const safeMessage = escapeHtml(message.trim());
 
     await transporter.sendMail({
-      from: `"Portfolio Contact" <${process.env.EMAIL_USER}>`,
+      from: `"Armanx.online" <${process.env.EMAIL_USER}>`,
       to: "armanhansda.work@gmail.com",
       replyTo: email.trim(),
       subject: `New Message from ${name.trim()}`,
