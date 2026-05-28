@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   description: "Mathematics & Computing student at BIT Mesra. Building scalable full-stack and distributed systems with Rust, Node.js, and Next.js.",
   keywords: ["Portfolio", "Developer", "Arman Hansda", "Rust", "Distributed Systems"],
   authors: [{ name: "Arman Hansda" }],
+  icons:{
+    icon:"/favicon.ico",
+    apple:"/favicon.ico"
+  }
 };
 
 export default function RootLayout({
